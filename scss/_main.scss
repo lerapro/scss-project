@@ -5,6 +5,10 @@ body {
     background-color: #202023;
 }
 
+.container{
+    padding-left: 146px;
+}
+
 a{
     text-decoration: none;
     color: currentColor;
@@ -12,7 +16,6 @@ a{
 
 header {
     padding-top: 55px;
-    padding-left: 146px;
     background-image: url(../img/background-image.png);
     background-size: cover;
     background-position: center;
@@ -98,4 +101,73 @@ header {
     }
 
     
+}
+
+main{
+
+    .menu{
+        
+        h2{
+            text-align: center;
+            @include text-style(100, 64px, 77px);
+        }
+
+        .menu-cards{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            padding: 20px 20% 63px 20% ;
+
+        }
+
+        .menu-card{
+
+            width: 328px;
+            height: 230px;
+
+            padding-bottom: 10px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center ;
+
+
+            &:nth-child(even){
+                margin-left: 200px;
+            }
+
+            h5{
+                @include text-style(800, 26px, 31px);
+            }
+
+            button{
+                background: #B47B48;
+                border-radius: 17px;
+                border: none;
+
+                margin-top: 10px;
+
+                width: 132px;
+                height: 41px;
+
+                @include text-style(800, 26px, 31px);
+                color: #ffffff;
+            }
+        }
+
+        .item-description{
+            border: 1px solid white;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                height: 155px;
+            }
+
+        }
+    }
 }

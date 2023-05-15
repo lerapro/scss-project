@@ -136,6 +136,10 @@ body {
   background-color: #202023;
 }
 
+.container {
+  padding-left: 146px;
+}
+
 a {
   text-decoration: none;
   color: currentColor;
@@ -143,7 +147,6 @@ a {
 
 header {
   padding-top: 55px;
-  padding-left: 146px;
   background-image: url(../img/background-image.png);
   background-size: cover;
   background-position: center;
@@ -234,4 +237,61 @@ header .cards .card .card-text button {
   font-weight: 900;
   font-size: 16px;
   line-height: 19px;
+}
+
+main .menu h2 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 77px;
+}
+main .menu .menu-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 20% 63px 20%;
+}
+main .menu .menu-card {
+  width: 328px;
+  height: 230px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .menu .menu-card:nth-child(even) {
+  margin-left: 200px;
+}
+main .menu .menu-card h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+}
+main .menu .menu-card button {
+  background: #B47B48;
+  border-radius: 17px;
+  border: none;
+  margin-top: 10px;
+  width: 132px;
+  height: 41px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+main .menu .item-description {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .menu .item-description img {
+  height: 155px;
 }
