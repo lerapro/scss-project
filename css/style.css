@@ -1,0 +1,237 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Inter";
+  font-style: normal;
+  color: #ffffff;
+  background-color: #202023;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+header {
+  padding-top: 55px;
+  padding-left: 146px;
+  background-image: url(../img/background-image.png);
+  background-size: cover;
+  background-position: center;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+header nav li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 29px;
+}
+header h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 70px;
+  line-height: 85px;
+  width: 561px;
+  padding-top: 71px;
+}
+header h1 + p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+  width: 570px;
+  margin: 22px 0 49px;
+}
+header .btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  background-color: #b47b48;
+  padding: 16px 34px 16px 34px;
+  border-radius: 17px;
+  border: none;
+  margin-bottom: 125px;
+}
+header .cards, header .cards * {
+  box-sizing: border-box;
+}
+header .cards {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-bottom: 36px;
+}
+header .cards .card {
+  display: flex;
+  background-image: linear-gradient(to right, #19191a, #1c1c1d, #202020, #232324, #272727);
+}
+header .cards .card:hover {
+  background: linear-gradient(90deg, rgb(149, 110, 52) 0%, rgb(228, 168, 79) 50%, rgb(235, 173, 81) 100%);
+}
+header .cards .card .card-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 50px;
+}
+header .cards .card .card-text h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 13px;
+}
+header .cards .card .card-text button {
+  padding: 10px 22px 5px 22px;
+  margin-top: 35px;
+  color: #ffffff;
+  background-color: #C85312;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+}
