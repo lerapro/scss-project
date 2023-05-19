@@ -295,3 +295,46 @@ main .menu .item-description {
 main .menu .item-description img {
   height: 155px;
 }
+main .quality h2 {
+  margin-left: 41%;
+  margin-top: 90px;
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+}
+main .quality .quality-card ol {
+  background: rgba(242, 242, 242, 0.3);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  height: 178px;
+  padding-left: 37px;
+  padding-top: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+}
+main .quality .quality-card ol li {
+  list-style: decimal;
+}
+main .quality .bread {
+  position: absolute;
+  left: 300px;
+  top: 1800px;
+}
+main .quality .bread img {
+  width: 356px;
+  height: 223px;
+}
+main .quality .coockie {
+  position: absolute;
+  left: 790px;
+  top: 1950px;
+}
+main .quality .pie {
+  position: absolute;
+  left: 1200px;
+  top: 2086px;
+}
